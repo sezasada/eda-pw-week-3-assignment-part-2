@@ -49,6 +49,7 @@ for(const Name of stars) {
 console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
+console.log('Some stars:');
 let star = 0;
 while(star < stars.length) {
   console.log(stars[star]);
