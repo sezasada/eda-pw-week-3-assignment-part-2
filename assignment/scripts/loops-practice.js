@@ -22,13 +22,15 @@ for (let i = 0; i < 6; i++) {
 console.log('count from 3 to 5');
 // you need to change the value of i to start at 3 instead of 0.
 for (let i = 3; i < 6; i++) {
-  console.log(i);
+console.log(i);
 }
-
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
-
+// need to set the value of i to 2. need to set the value of i to be less than 11. need to integrate the value of i + 2.
+for (let i = 2; i < 11; i = i + 2) {
+  console.log(i);
+} 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
 
